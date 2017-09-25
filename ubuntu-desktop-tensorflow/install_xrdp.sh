@@ -12,4 +12,5 @@ sudo echo xfce4-session >/root/.xsession
 sudo sed -i '/\/etc\/X11\/Xsession/i xfce4-session' /etc/xrdp/startwm.sh
 sudo service xrdp restart
 
+sudo apt-get install python-pip python-dev
 pip install tensorflow
