@@ -14,3 +14,13 @@ sudo service xrdp restart
 
 sudo apt-get install python-pip python-dev
 pip install tensorflow
+
+sudo apt-get install python-pip python-dev python-virtualenv 
+virtualenv --system-site-packages ~/tensorflow
+source ~/tensorflow/bin/activate
+easy_install -U pip
+pip install --upgrade tensorflow
+sudo apt-get install python3-setuptools
+sudo easy_install3 pip
+pip3 install --upgrade \
+ https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.3.0-cp34-cp34m-linux_x86_64.whl
