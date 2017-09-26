@@ -15,7 +15,7 @@ sudo service xrdp restart
 sudo apt-get install python-pip python-dev
 pip install tensorflow
 
-sudo apt-get install python-pip python-dev python-virtualenv 
+sudo apt-get -y install python-pip python-dev python-virtualenv 
 virtualenv --system-site-packages ~/tensorflow
 source ~/tensorflow/bin/activate
 easy_install -U pip
