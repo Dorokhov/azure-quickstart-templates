@@ -13,4 +13,4 @@ sudo sed -i '/\/etc\/X11\/Xsession/i xfce4-session' /etc/xrdp/startwm.sh
 sudo service xrdp restart
 
 sudo apt-get -y install python3-pip python3-dev python-virtualenv
-pip3 install tensorflow 
+sudo pip install tensorflow 
