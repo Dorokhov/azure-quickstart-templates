@@ -10,6 +10,12 @@
     },
     "dnsNamePrefix": {
       "value": "GEN-UNIQUE"
+    },
+    "hostingPlanName": {
+      "value": "GEN-UNIQUE"
+    },
+    "webSiteName": {
+      "value": "GEN-UNIQUE"
     }
   }
 }
