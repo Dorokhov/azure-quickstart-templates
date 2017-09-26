@@ -13,7 +13,7 @@ sudo sed -i '/\/etc\/X11\/Xsession/i xfce4-session' /etc/xrdp/startwm.sh
 sudo service xrdp restart
 
 sudo apt-get -y install python3-pip python3-dev
-sudo apt-get install python3-pip python3-dev python-virtualenv
+sudo apt-get -y install python3-pip python3-dev python-virtualenv
 virtualenv --system-site-packages -p python3 ~/tensorflow
 source ~/tensorflow/bin/activate
 easy_install -U pip
