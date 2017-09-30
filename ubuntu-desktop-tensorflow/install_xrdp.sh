@@ -13,8 +13,8 @@ sudo sed -i '/\/etc\/X11\/Xsession/i xfce4-session' /etc/xrdp/startwm.sh
 sudo service xrdp restart
 
 #sudo apt-get -y install python3-pip python3-dev python-virtualenv
-#sudo pip install --upgrade pip
-#sudo pip install tensorflow 
+sudo pip install --upgrade pip
+sudo pip install tensorflow 
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 
